@@ -3,12 +3,16 @@
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 .bootstrap {
+  /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+  /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+}
+.bootstrap html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+}
+.bootstrap body {
   margin: 0;
 }
 .bootstrap article,
@@ -6418,55 +6422,55 @@ button.bootstrap .close {
 }
 .bootstrap .clearfix:before,
 .bootstrap .clearfix:after,
-.bootstrap .bootstrap .dl-horizontal dd:before,
-.bootstrap .bootstrap .dl-horizontal dd:after,
-.bootstrap .bootstrap .container:before,
-.bootstrap .bootstrap .container:after,
-.bootstrap .bootstrap .container-fluid:before,
-.bootstrap .bootstrap .container-fluid:after,
-.bootstrap .bootstrap .row:before,
-.bootstrap .bootstrap .row:after,
-.bootstrap .bootstrap .form-horizontal .form-group:before,
-.bootstrap .bootstrap .form-horizontal .form-group:after,
-.bootstrap .bootstrap .btn-toolbar:before,
-.bootstrap .bootstrap .btn-toolbar:after,
-.bootstrap .bootstrap .btn-group-vertical > .btn-group:before,
-.bootstrap .bootstrap .btn-group-vertical > .btn-group:after,
-.bootstrap .bootstrap .nav:before,
-.bootstrap .bootstrap .nav:after,
-.bootstrap .bootstrap .navbar:before,
-.bootstrap .bootstrap .navbar:after,
-.bootstrap .bootstrap .navbar-header:before,
-.bootstrap .bootstrap .navbar-header:after,
-.bootstrap .bootstrap .navbar-collapse:before,
-.bootstrap .bootstrap .navbar-collapse:after,
-.bootstrap .bootstrap .pager:before,
-.bootstrap .bootstrap .pager:after,
-.bootstrap .bootstrap .panel-body:before,
-.bootstrap .bootstrap .panel-body:after,
-.bootstrap .bootstrap .modal-header:before,
-.bootstrap .bootstrap .modal-header:after,
-.bootstrap .bootstrap .modal-footer:before,
-.bootstrap .bootstrap .modal-footer:after {
+.bootstrap .dl-horizontal dd:before,
+.bootstrap .dl-horizontal dd:after,
+.bootstrap .container:before,
+.bootstrap .container:after,
+.bootstrap .container-fluid:before,
+.bootstrap .container-fluid:after,
+.bootstrap .row:before,
+.bootstrap .row:after,
+.bootstrap .form-horizontal .form-group:before,
+.bootstrap .form-horizontal .form-group:after,
+.bootstrap .btn-toolbar:before,
+.bootstrap .btn-toolbar:after,
+.bootstrap .btn-group-vertical > .btn-group:before,
+.bootstrap .btn-group-vertical > .btn-group:after,
+.bootstrap .nav:before,
+.bootstrap .nav:after,
+.bootstrap .navbar:before,
+.bootstrap .navbar:after,
+.bootstrap .navbar-header:before,
+.bootstrap .navbar-header:after,
+.bootstrap .navbar-collapse:before,
+.bootstrap .navbar-collapse:after,
+.bootstrap .pager:before,
+.bootstrap .pager:after,
+.bootstrap .panel-body:before,
+.bootstrap .panel-body:after,
+.bootstrap .modal-header:before,
+.bootstrap .modal-header:after,
+.bootstrap .modal-footer:before,
+.bootstrap .modal-footer:after {
   content: " ";
   display: table;
 }
 .bootstrap .clearfix:after,
-.bootstrap .bootstrap .dl-horizontal dd:after,
-.bootstrap .bootstrap .container:after,
-.bootstrap .bootstrap .container-fluid:after,
-.bootstrap .bootstrap .row:after,
-.bootstrap .bootstrap .form-horizontal .form-group:after,
-.bootstrap .bootstrap .btn-toolbar:after,
-.bootstrap .bootstrap .btn-group-vertical > .btn-group:after,
-.bootstrap .bootstrap .nav:after,
-.bootstrap .bootstrap .navbar:after,
-.bootstrap .bootstrap .navbar-header:after,
-.bootstrap .bootstrap .navbar-collapse:after,
-.bootstrap .bootstrap .pager:after,
-.bootstrap .bootstrap .panel-body:after,
-.bootstrap .bootstrap .modal-header:after,
-.bootstrap .bootstrap .modal-footer:after {
+.bootstrap .dl-horizontal dd:after,
+.bootstrap .container:after,
+.bootstrap .container-fluid:after,
+.bootstrap .row:after,
+.bootstrap .form-horizontal .form-group:after,
+.bootstrap .btn-toolbar:after,
+.bootstrap .btn-group-vertical > .btn-group:after,
+.bootstrap .nav:after,
+.bootstrap .navbar:after,
+.bootstrap .navbar-header:after,
+.bootstrap .navbar-collapse:after,
+.bootstrap .pager:after,
+.bootstrap .panel-body:after,
+.bootstrap .modal-header:after,
+.bootstrap .modal-footer:after {
   clear: both;
 }
 .bootstrap .center-block {
